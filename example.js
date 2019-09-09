@@ -1,4 +1,4 @@
-import zipcelx from 'zipcelx';
+import zipcelx from './zipcelx';
 
 const config = {
   filename: 'general-ledger-Q1',
