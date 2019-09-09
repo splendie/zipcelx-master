@@ -1,21 +1,21 @@
 <html>
   <head>
-    <script type="module" src="./modules/legacy.js"></script>
+    <script type="module" src="./modules/standalone.js"></script>
     <script>
       function callExample() {
         const config = {
-  filename: 'general-ledger-Q1',
-  sheet: {
-    data: [
-      [{
-        value: 'Income - Webshop',
-        type: 'string'
-      }, {
-        value: 1000,
-        type: 'number'
-      }]
-    ]
-  }
+          filename: 'general-ledger-Q1',
+          sheet: {
+            data: [
+              [{
+                value: 'Income - Webshop',
+                type: 'string'
+              }, {
+                value: 1000,
+                type: 'number'
+              }]
+            ]
+          }
 };
         zipcelx(config);
       }
